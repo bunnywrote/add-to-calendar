@@ -1,0 +1,37 @@
+.add-to-calendar{
+    background: green;
+    color: #ffffff;
+    padding: 5px;
+    height: 34px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.select-calendar{
+    max-width: 200px;
+    height: 34px;
+    border-radius: 4px;
+    border: solid lightgray 2px;
+    padding: 0 10px;
+}
+
+.add-to-calendar span{
+    padding: 0 2px;
+}
+
+.calendar-download>div{
+    float: left;
+}
+
+.calendar-download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
